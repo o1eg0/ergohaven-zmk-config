@@ -37,10 +37,10 @@
 
         Navigation {
             bindings = <
-&trans  &kp N1  &kp HOME        &kp UP_ARROW    &kp END              &kp N5                     &kp N6         &kp N7        &kp N8         &kp N9       &kp N0         &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp RET                    &trans         &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans
-&trans  &trans  &kp LC(LEFT)    &kp CAPS        &kp LC(RIGHT_ARROW)  &kp DEL                    &kp LG(SPACE)  &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)  &trans
-                &trans          &trans          &trans               &trans   &trans    &trans  &mo 3          &trans        &trans         &trans
+&trans  &kp N1  &kp HOME        &kp UP_ARROW    &kp END              &kp N5                     &kp N6  &kp N7        &kp N8        &kp N9        &kp N0          &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp RET                    &kp N1  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &kp LEFT_SHIFT  &trans
+&trans  &trans  &kp LC(LEFT)    &kp CAPS        &kp LC(RIGHT_ARROW)  &kp DEL                    &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans
+                &trans          &trans          &trans               &trans   &trans    &trans  &mo 3   &trans        &trans        &trans
             >;
 
             display-name = "Navigation";
@@ -70,7 +70,7 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                      &trans  &trans    &trans    &trans    &trans  &trans
+&kp N4  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                      &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &mo 5   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN                    &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
 &trans  &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans                            &trans  &trans    &trans    &trans    &trans  &trans
                 &trans          &trans          &trans           &trans          &trans    &trans  &trans  &trans    &trans    &trans
@@ -79,7 +79,7 @@
 
         Scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N5  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -88,7 +88,7 @@
 
         Sniper {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+&kp N6  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
 &trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
                 &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
