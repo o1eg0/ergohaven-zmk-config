@@ -30,6 +30,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        comment {
+            bindings = <&kp LC(FSLH)>;
+            key-positions = <38 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
